@@ -1,5 +1,6 @@
-
+var Articles = require('./Articles');
+var Notes = require('./Notes');
 module.exports = {
-Articles = require('./Articles'),
-Notes = require('./Notes')
-}
+Articles,
+Notes
+};
