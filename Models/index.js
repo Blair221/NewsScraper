@@ -1,6 +1,5 @@
-var Articles = require('./Articles');
-var Notes = require('./Notes');
+
 module.exports = {
-Articles,
-Notes
+Articles: require('./Articles'),
+Notes: require('./Notes')
 };
